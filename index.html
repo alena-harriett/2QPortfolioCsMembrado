@@ -1,21 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title> 2nd Quarter Portfolio</title>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <meta charset="UTF-8">
+  <title>Alena's 2nd Quarter Portfolio</title>
   <style>
-    button:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
-}
+    body {
+      background-color: #fdf6e3; /* soft beige */
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #5c4438; /* warm brown */
+    }
+
+    header {
+      background-color: #e6d3b3;
+      padding: 40px 20px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-size: 3em;
+      margin: 0;
+      color: #5c4438;
+    }
+
+    main {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+
+    a button {
+      padding: 12px 24px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      font-size: 1.2em;
+      border: 2px dashed #c8b6a6;
+      border-radius: 12px;
+      background-color: #fffaf3;
+      color: #5c4438;
+      box-shadow: 2px 2px 6px rgba(92, 68, 56, 0.2);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    a button:hover {
+      background-color: #e8ddcf;
+      color: #3e2c23;
+      box-shadow: 3px 3px 10px rgba(92, 68, 56, 0.3);
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      font-size: 0.9em;
+      color: #a08976;
+    }
+
+    a {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
-  <section class="w3-container">
-   <h1>Links to Alena's work</h1>
+  <header>
+    <h1>Alena's 2nd Quarter Portfolio</h1>
+  </header>
 
-   <nav>
-    <a href = "public/2Q1GCesiumMembrado.html"><button><b> 1st Exercise </b> </button> </a>
-   </nav>
-  </section>
+  <main>
+    <a href="index.html">
+      <button>Home</button>
+    </a>
+    <a href="public/2Q1GCesiumMembrado.html">
+      <button>1st Graded Exercise</button>
+    </a>
+    <a href="public/Q21NGCesiumMembrado.htm">
+      <button>1st Non-Graded Exercise</button>
+    </a>
+  </main>
+
+  <footer>
+    Made with ☕ and Comic Sans • 2025
+  </footer>
 </body>
 </html>
