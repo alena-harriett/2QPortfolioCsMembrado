@@ -5,40 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>t u x e d o s a m</title>
     <link rel="icon" type="image/png" href="https://static.wikia.nocookie.net/hellokitty/images/f/f6/Sanrio_logo.png"/>
+    <link rel="stylesheet" href="https://alena-harriett.github.io/styles/shared.css">
     <style>
         body {
-            color: rgb(8, 161, 226);
+            background-color: rgb(98, 151, 205); /* soft pastel blue */
+            color: rgb(255, 255, 255); /* white text */
+            font-family: 'Comic Sans MS', cursive;
+            margin: 0;
+            padding: 0;
             text-align: center;
-            font-family: 'Comic Sans MS';
-            margin: 40px 90px;
         }
+
+        header, footer {
+            background-color: rgb(255, 255, 255); /* white */
+            padding: 20px;
+            color: rgb(98, 151, 205); /* blue text */
+        }
+
         nav {
-            margin: 20px 0;
-        }
+            background-color: rgb(98, 151, 205);
+            padding: 10px;
+            margin-bottom: 0; 
+            }
+
 
         nav a {
             margin: 0 15px;
             text-decoration: none;
-            color: rgb(8, 161, 226);
+            color: rgb(255, 255, 255);
             font-weight: bold;
         }
 
-        a {  
-            color: rgb(8, 161, 226);
-            text-decoration: none;
+        nav a:visited {
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
+        }
+
+        nav a:hover {
+            color: rgb(255, 255, 255);
+            text-decoration: underline;
         }
 
         a:visited {
-            color: rgb(8, 161, 226);
-            text-decoration: underline;
+            color: rgb(98, 151, 205);
+            text-decoration: none;
         }
 
         a:hover {
-            color: rgb(8, 161, 226);
             text-decoration: underline;
+            color: rgb(98, 151, 205);
         }
 
-        
+        .blue-section {
+            background-color: rgb(98, 151, 205); /* main blue */
+            padding: 30px;
+            margin: 20px auto;
+            border-radius: 12px;
+            max-width: 1000px;
+            color: rgb(255, 255, 255); /* white text */
+        }
 
         .media-container {
             display: flex;
@@ -46,35 +71,38 @@
             align-items: center;
             gap: 20px;
             margin: 20px 0;
+            flex-wrap: wrap;
         }
 
         .media-container img {
             max-width: 300px;
             height: auto;
-            float: left;
+            border-radius: 10px;
             margin-right: 20px;
         }
-        
-        .media-container iframe {
-          width: 450px;
-          height: 300px;
-        }
 
-        iframe {
-          border: none;
+        .media-container iframe {
+            width: 450px;
+            height: 300px;
+            border: none;
         }
 
         table, th, td {
-          border: 1px dotted rgb(8, 161, 226);
-          border-radius: 10px;
-          padding: 8px;
-          background-color: #ffffff;
-
+            border: 1px solid rgb(255, 255, 255); /* white border */
+            border-radius: 10px;
+            padding: 8px;
+            background-color: rgb(98, 151, 205); /* blue table */
+            color: rgb(255, 255, 255); /* white text */
+            margin: auto;
         }
 
         hr {
-          border: 1px dotted rgb(8, 161, 226);
+            border: 1px dotted rgb(255, 255, 255);
+            margin-top: 5px;
+            margin-bottom: 20px;
+            width: 80%;
         }
+
 
       
     </style>
@@ -89,12 +117,11 @@
     <nav>
         <a href="https://alena-harriett.github.io/2QPortfolioCsMembrado/public/2Q1GCesiumMembrado.html">Tuxedo Sam (You're here!)</a> |
         <a href="https://allison-ababon.github.io/2QRepositoryCsAbabon/public/2Q1GCesiumAbabon2.html">Chococat</a> |
-        <a href="#">Pochacco</a> |
+        <a href="https://mandy67mango.github.io/2QPortfolioCsBascon/public/2Q1GCesiumBascon.html">Pochacco</a> |
         <a href="https://acpcalaquian.github.io/2QPortfolioCsCalaquian/public/2QFirstGradedExercise.html">Pompompurin</a>
     </nav>
-
-    <br>
     <hr/>
+    <div class="blue-section">
     <h3>──ʚ ♡ ɞ──</h3>
     <h2>TUXEDO  SAM</h2>
     <h3>──ʚ ♡ ɞ──</h3>
@@ -166,6 +193,7 @@
     </tr>
   </table>
 <br>
+</div>
 
 <footer>
     <hr/>
