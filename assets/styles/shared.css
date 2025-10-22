@@ -1,5 +1,12 @@
+        
+    /* This file mainly uses white color for the texts. 
+    If you prefer to use a different color, change the 
+    rgb functions below. Encode the syntax for the background 
+    colors in the indicated spaces. Thank you !!*/
+        
+
         body {
-            background-color: rgb(98, 151, 205); /* soft pastel blue */
+            /* background-color: Add your preferred section non-white color here */
             color: rgb(255, 255, 255); /* white text */
             font-family: 'Comic Sans MS', cursive;
             margin: 0;
@@ -10,11 +17,11 @@
         header, footer {
             background-color: rgb(255, 255, 255); /* white */
             padding: 20px;
-            color: rgb(98, 151, 205); /* blue text */
+            /*color:  same color as body background-color */
         }
 
         nav {
-            background-color: rgb(98, 151, 205);
+            /* background-color: Add your preferred navigation non-white color here  */ 
             padding: 10px;
             margin-bottom: 0; 
             }
@@ -38,17 +45,17 @@
         }
 
         a:visited {
-            color: rgb(98, 151, 205);
+            /*color:  same color as body background-color */
             text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
-            color: rgb(98, 151, 205);
+            /*color:  same color as body background-color */
         }
 
         .blue-section {
-            background-color: rgb(98, 151, 205); /* main blue */
+            /* background-color: Add your preferred section non-white color here */
             padding: 30px;
             margin: 20px auto;
             border-radius: 12px;
@@ -65,24 +72,24 @@
             flex-wrap: wrap;
         }
 
-        .media-container img {
+        .media-container img { /*For your Sanrio Character Image*/
             max-width: 300px;
             height: auto;
             border-radius: 10px;
             margin-right: 20px;
         }
 
-        .media-container iframe {
+        .media-container iframe { /*For your Video Link*/
             width: 450px;
             height: 300px;
             border: none;
         }
 
         table, th, td {
-            border: 1px solid rgb(255, 255, 255); /* white border */
+            border: 1px solid rgb(255, 255, 255); /* This has a white border, so if your bg is white, please change accordingly. */
             border-radius: 10px;
             padding: 8px;
-            background-color: rgb(98, 151, 205); /* blue table */
+            /* background-color: Add your preferred section non-white color here */ 
             color: rgb(255, 255, 255); /* white text */
             margin: auto;
         }
